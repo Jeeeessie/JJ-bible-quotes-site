@@ -10,26 +10,25 @@ const bibleQuotes = [
 ];
 
 const backgrounds = [
-    'https://images.unsplash.com/photo-1521747116042-5a810fda9664',
-    'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0',
-    'https://images.unsplash.com/photo-1608571427036-94d62c7f47b2',
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7',
-    'https://images.unsplash.com/photo-1501594907352-04cda38ebc29',
-    'https://images.unsplash.com/photo-1516849841032-97e8e515c605',
-    'https://images.unsplash.com/photo-1532673466406-0565e5e843b9',
-    'https://images.unsplash.com/photo-1470770903676-69b98201ea1c',
-    'https://images.unsplash.com/photo-1501594907352-04cda38ebc29',
-    'https://images.unsplash.com/photo-1490730141103-6cac27aaab94',
-    'https://images.unsplash.com/photo-1469406396016-013b0f5e4c81',
-    'https://images.unsplash.com/photo-1473447517481-15a94b36b7ec',
-    'https://images.unsplash.com/photo-1513829693384-125b494f44be',
-    'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0',
-    'https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5',
-    'https://images.unsplash.com/photo-1496875278409-022e7bc6f27a',
-    'https://images.unsplash.com/photo-1471623432079-b009d30b6729'
+    'https://unsplash.com/photos/sun-light-passing-through-green-leafed-tree-EwKXn5CapA4',
+    'https://unsplash.com/photos/clouds-during-golden-hour-hgGplX3PFBg',
+    'https://unsplash.com/photos/a-lush-green-forest-filled-with-lots-of-trees-fWBZ9r4vO9M',
+    'https://unsplash.com/photos/trees-under-blue-sky-and-stars-during-nighttime-photo-T26KCgCPsCI',
+    'https://unsplash.com/photos/a-circle-of-flowers-with-a-sky-in-the-background-FuOfzjxFaV4',
+    'https://unsplash.com/photos/a-lake-surrounded-by-mountains-under-a-cloudy-sky-LAyeX0waCDk',
+    'https://unsplash.com/photos/a-green-and-blue-sky-filled-with-stars-a6a0aJfzxBQ',
+    'https://unsplash.com/photos/low-angle-photography-of-trees-at-daytime-4rDCa5hBlCs',
+    'https://unsplash.com/photos/ocean-wave-at-beach-GyDktTa0Nmw',
+    'https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-with-rocks-in-the-foreground-Md_-qx-b0-Q',
+    'https://unsplash.com/photos/a-road-with-trees-and-mountains-in-the-background--YsC0W2km9I',
+    'https://unsplash.com/photos/green-sprout-growing-between-re-bars-nYGVN45DOHg',
+    'https://unsplash.com/photos/a-river-with-rocks-and-trees-vb3xwa5WXD4',
+    'https://unsplash.com/photos/sun-rays-through-white-cumulus-clouds-yJr1rbbrAGw',
+    'https://unsplash.com/photos/green-trees-on-mountain-under-blue-sky-during-daytime-s0WGD6BqLdU',
+    'https://unsplash.com/photos/a-sunset-over-a-body-of-water-with-trees-in-the-foreground-dhwDc8TayEE'
 ];
 
-const defaultBackground = 'https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2';
+const defaultBackground = 'https://unsplash.com/photos/low-angle-photography-of-mountain-alps-during-daytime-u5CyQkHRhkQ';
 
 function getRandomQuote() {
     const randomIndex = Math.floor(Math.random() * bibleQuotes.length);
