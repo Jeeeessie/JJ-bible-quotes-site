@@ -52,23 +52,23 @@ const bibleQuotes = [
 ];
 
 const backgrounds = [
-    'https://unsplash.com/photos/sun-light-passing-through-green-leafed-tree-EwKXn5CapA4',
-    'https://unsplash.com/photos/clouds-during-golden-hour-hgGplX3PFBg',
-    'https://unsplash.com/photos/a-lush-green-forest-filled-with-lots-of-trees-fWBZ9r4vO9M',
-    'https://unsplash.com/photos/trees-under-blue-sky-and-stars-during-nighttime-photo-T26KCgCPsCI',
-    'https://unsplash.com/photos/a-circle-of-flowers-with-a-sky-in-the-background-FuOfzjxFaV4',
-    'https://unsplash.com/photos/a-lake-surrounded-by-mountains-under-a-cloudy-sky-LAyeX0waCDk',
-    'https://unsplash.com/photos/a-green-and-blue-sky-filled-with-stars-a6a0aJfzxBQ',
-    'https://unsplash.com/photos/low-angle-photography-of-trees-at-daytime-4rDCa5hBlCs',
-    'https://unsplash.com/photos/ocean-wave-at-beach-GyDktTa0Nmw',
-    'https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-with-rocks-in-the-foreground-Md_-qx-b0-Q',
-    'https://unsplash.com/photos/a-road-with-trees-and-mountains-in-the-background--YsC0W2km9I',
-    'https://unsplash.com/photos/green-sprout-growing-between-re-bars-nYGVN45DOHg',
-    'https://unsplash.com/photos/a-river-with-rocks-and-trees-vb3xwa5WXD4',
-    'https://unsplash.com/photos/sun-rays-through-white-cumulus-clouds-yJr1rbbrAGw',
-    'https://unsplash.com/photos/green-trees-on-mountain-under-blue-sky-during-daytime-s0WGD6BqLdU',
-    'https://unsplash.com/photos/a-sunset-over-a-body-of-water-with-trees-in-the-foreground-dhwDc8TayEE'
-];
+   'https://images.unsplash.com/photo-1518495973542-4542c06a5843?q=80&w=2574&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?q=80&w=2565&auto=format&fit=crop',
+    'https://plus.unsplash.com/premium_photo-1673292293042-cafd9c8a3ab3?q=80&w=2574&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1435224654926-ecc9f7fa028c?q=80&w=2574&auto=format&fit=crop',
+    'https://plus.unsplash.com/premium_photo-1710849581742-f2151607c745?q=80&w=2630&auto=format&fit=crop',
+    'https://plus.unsplash.com/premium_photo-1673697239936-c2599b0b0498?q=80&w=2671&auto=format&fit=crop',
+    'https://plus.unsplash.com/premium_photo-1675805015392-28fd80c551ec?q=80&w=2664&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=2576&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=2576&auto=format&fit=crop',
+    'https://plus.unsplash.com/premium_photo-1673002094029-7b23531aa342?q=80&w=2670&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1668215677573-59cbc8623701?q=80&w=2570&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1668215455269-e8592b90e9a5?q=80&w=2570&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1534629938736-b1b076531d3b?q=80&w=2574&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1581802255112-247d053929c3?q=80&w=2574&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1682366972379-95471e903f04?q=80&w=2670&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1577782784416-b43800027065?q=80&w=2671&auto=format&fit=crop'
+]
 
 const defaultBackground = 'https://unsplash.com/photos/low-angle-photography-of-mountain-alps-during-daytime-u5CyQkHRhkQ';
 
