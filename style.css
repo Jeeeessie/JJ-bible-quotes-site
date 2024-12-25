@@ -12,7 +12,6 @@ body {
     background-position: center;
 }
 
-/* 毛玻璃效果与透明度 */
 .overlay {
     position: absolute;
     width: 100%;
@@ -35,39 +34,60 @@ body {
     animation: fadeIn 1.5s ease;
 }
 
-/* 标题样式 */
 .title {
     font-size: 3rem;
     margin-bottom: 15px;
-    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
 .date {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    opacity: 0.9;
     color: #ddd;
 }
 
-/* 金句样式 */
 .quote-box {
     font-size: 1.8rem;
     margin: 30px 0;
     font-style: italic;
-    line-height: 1.8;
     color: #fff;
 }
 
-/* 底部样式 */
 footer {
     margin-top: 20px;
     font-size: 1rem;
     color: #ddd;
-    opacity: 0.8;
 }
 
-/* 页面淡入动画 */
+/* 响应式布局 */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .quote-box {
+        font-size: 1.3rem;
+    }
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.8rem;
+    }
+    .quote-box {
+        font-size: 1.1rem;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
