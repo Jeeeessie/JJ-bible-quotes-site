@@ -30,21 +30,50 @@ const backgrounds = [
 
 const defaultBackground = 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0';
 
+// 记录上一个背景，防止重复
+let lastBackgroundIndex = -1;
+
+// 预加载背景图
+function preloadImages() {
+    backgrounds.forEach(url => {
+        const img = new Image();
+        img.src = url;
+    });
+}
+
+// 获取随机金句和背景
 function getRandomQuote() {
     const randomIndex = Math.floor(Math.random() * bibleQuotes.length);
-    const randomBackground = Math.floor(Math.random() * backgrounds.length);
-    
+    let randomBackground;
+
+    // 避免连续相同背景
+    do {
+        randomBackground = Math.floor(Math.random() * backgrounds.length);
+    } while (randomBackground === lastBackgroundIndex);
+
+    lastBackgroundIndex = randomBackground;
+
     document.getElementById('quote').innerText = bibleQuotes[randomIndex];
     document.getElementById('date').innerText = new Date().toLocaleDateString();
-    
+
+    // 创建图片对象进行加载
     const img = new Image();
     img.src = backgrounds[randomBackground];
     img.onload = function () {
+        // 淡入背景图
+        document.body.style.transition = 'background-image 1s ease-in-out';
         document.body.style.backgroundImage = `url(${backgrounds[randomBackground]})`;
     };
     img.onerror = function () {
-        document.body.style.backgroundImage = `url(${defaultBackground})`;
+        // 加载失败时，选择下一个背景
+        const fallbackIndex = (randomBackground + 1) % backgrounds.length;
+        document.body.style.backgroundImage = `url(${backgrounds[fallbackIndex]})`;
     };
 }
 
-window.onload = getRandomQuote;
+// 确保加载时即刻生效
+window.onload = function () {
+    preloadImages();
+    getRandomQuote();
+};
+
