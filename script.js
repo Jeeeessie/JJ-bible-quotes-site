@@ -68,7 +68,7 @@ const backgrounds = [
     'https://images.unsplash.com/photo-1581802255112-247d053929c3?q=80&w=2574&auto=format&fit=crop',
     'https://images.unsplash.com/photo-1682366972379-95471e903f04?q=80&w=2670&auto=format&fit=crop',
     'https://images.unsplash.com/photo-1577782784416-b43800027065?q=80&w=2671&auto=format&fit=crop'
-]
+];
 
 const defaultBackground = 'https://unsplash.com/photos/low-angle-photography-of-mountain-alps-during-daytime-u5CyQkHRhkQ';
 
